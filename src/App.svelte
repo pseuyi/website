@@ -2,6 +2,7 @@
   import Bio from './Bio.svelte';
   import Social from './Social.svelte';
   import Projects from './Projects.svelte';
+  import Footer from './Footer.svelte';
 </script>
 
 <!--
@@ -15,6 +16,7 @@
   <h2>freda suyi ding</h2>
   <Bio />
   <Projects />
+  <Footer />
 </main>
 
 <style>
