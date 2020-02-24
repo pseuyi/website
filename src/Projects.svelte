@@ -1,7 +1,6 @@
 <ul>
   <li><h2>apps</h2></li>
   <ul>
-    <li><a href="/modes">webmidi piano</a></li>
     <li><a href="/2048">2048</a></li>
     <li><a href="/sequencer">sequencer</a></li>
     <li>
@@ -44,7 +43,10 @@
   </ul>
   <li><h2>sketches</h2></li>
   <ul>
+    <li><a href="/modes">webmidi piano</a></li>
     <li><a href="/grammar">rita + processing</a></li>
+
+    <li><a href="https://blockmate.herokuapp.com/">eth wallet</a></li>
     <li><a href="http://tilde.learning-gardens.co/~freda/">tilde club</a></li>
 
     <li><a href="/e-doser">mushrooms in vr</a></li>
