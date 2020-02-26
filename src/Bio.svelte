@@ -16,6 +16,6 @@
   <header>recently</header>
   <p>
     they were at the recurse center, a programming retreat in brooklyn, nyc.
-    before that they worked on tools for building communities at a startup.
+    before that they worked on community management software.
   </p>
 </section>
