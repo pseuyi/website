@@ -2,7 +2,9 @@
   import Bio from './Bio.svelte';
   import Social from './Social.svelte';
   import Projects from './Projects.svelte';
-  import Footer from './Footer.svelte';
+  import Webring from './Webring.svelte';
+  //  import Image from './Image.svelte';
+  import Image from 'svelte-image';
 </script>
 
 <!--
@@ -11,12 +13,12 @@
     -->
 
 <main>
-  <img alt="photo of freda" src="/pic.png" height="600px" />
+  <image src="pic.png" ratio="70%" />
   <Social />
   <h2>freda suyi ding</h2>
   <Bio />
   <Projects />
-  <Footer />
+  <Webring />
 </main>
 
 <style>
