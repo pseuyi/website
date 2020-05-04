@@ -13,7 +13,7 @@
     -->
 
 <main>
-  <image src="pic.png" ratio="70%" />
+  <img alt="photo of freda" src="/pic.png" ratio="70%" />
   <Social />
   <h2>freda suyi ding</h2>
   <Bio />
