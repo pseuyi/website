@@ -44,6 +44,7 @@
   </ul>
   <li><h2>sketches</h2></li>
   <ul>
+    <li><a href="https://www.youtube.com/watch?v=iVCSJyFWHSs">eulerroom 2020</a></li>
     <li><a href="/modes">webmidi piano scales</a></li>
     <li><a href="/grammar">rita + processing</a></li>
 
