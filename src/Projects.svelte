@@ -1,6 +1,7 @@
 <ul>
-  <li><h2>apps</h2></li>
+  <li><h2>for fun</h2></li>
   <ul>
+    <li><a href="https://didactic-happiness.herokuapp.com/">generative yoga</a></li>
     <li><a href="https://arcane-scrubland-08669.herokuapp.com/">set</a></li>
     <li><a href="/2048">2048</a></li>
     <li><a href="/sequencer">sequencer</a></li>
@@ -45,6 +46,7 @@
   <li><h2>sketches</h2></li>
   <ul>
     <li><a href="https://www.youtube.com/watch?v=iVCSJyFWHSs">eulerroom 2020</a></li>
+    <li><a href="https://hydra-editor.glitch.me/?sketch_id=D5F8r9Tt2gfz9iTF&code=JTJGJTJGJTIwJTQwcHNldXlpJTBBJTBBb3NjKDclMkMlMjAwLjEpJTBBJTIwJTIwLmFkZChub2lzZSgwLjclMkMlMjAwLjEpKSUwQSUyMCUyMC5jb2xvcigyJTJDJTIwMiUyQyUyMDEwMCklMEElMjAlMjAuY29sb3JhbWEoMTAwKSUwQSUyMCUyMC5tb2R1bGF0ZSh2b3Jvbm9pKDEwJTJDJTIwMiUyQyUyMDUpJTBBJTIwJTIwJTIwJTIwLmthbGVpZCg0MDApJTBBJTIwJTIwJTIwJTIwLnNjYWxlKCglN0J0aW1lJTdEKSUzRCUzRU1hdGguc2luKHRpbWUpKjAuNSUyQjEpJTBBJTIwJTIwJTIwJTIwLm1vZHVsYXRlKG5vaXNlKDAuNiUyQzAuNSkpJTJDJTBBJTIwJTIwJTIwJTIwKCklMjAlM0QlM0UlMjBhLmZmdCU1QjIlNUQlMEElMjAlMjAlMjApJTBBJTIwJTIwLm91dCgp">hydra sketch</a></li>
     <li><a href="/modes">webmidi piano scales</a></li>
     <li><a href="/grammar">rita + processing</a></li>
 

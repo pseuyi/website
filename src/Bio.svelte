@@ -1,21 +1,19 @@
 <section>
   <header>
     is a computer programmer based in chinatown, nyc.
+    <br/>
+    interested in writing elegant, functional, and safe software.
   </header>
-  <p>
-  they are interested in frameworks for social progress, <a href="https://hydra-editor.glitch.me/?sketch_id=D5F8r9Tt2gfz9iTF&code=JTJGJTJGJTIwJTQwcHNldXlpJTBBJTBBb3NjKDclMkMlMjAwLjEpJTBBJTIwJTIwLmFkZChub2lzZSgwLjclMkMlMjAwLjEpKSUwQSUyMCUyMC5jb2xvcigyJTJDJTIwMiUyQyUyMDEwMCklMEElMjAlMjAuY29sb3JhbWEoMTAwKSUwQSUyMCUyMC5tb2R1bGF0ZSh2b3Jvbm9pKDEwJTJDJTIwMiUyQyUyMDUpJTBBJTIwJTIwJTIwJTIwLmthbGVpZCg0MDApJTBBJTIwJTIwJTIwJTIwLnNjYWxlKCglN0J0aW1lJTdEKSUzRCUzRU1hdGguc2luKHRpbWUpKjAuNSUyQjEpJTBBJTIwJTIwJTIwJTIwLm1vZHVsYXRlKG5vaXNlKDAuNiUyQzAuNSkpJTJDJTBBJTIwJTIwJTIwJTIwKCklMjAlM0QlM0UlMjBhLmZmdCU1QjIlNUQlMEElMjAlMjAlMjApJTBBJTIwJTIwLm91dCgp">expression with code</a>,
-    and experimenting with ways of thinking.
-  </p>
+  <br/>
   <header>currently</header>
-  <p>
-  they are thinking about type systems, <a href="https://en.wikipedia.org/wiki/Abstract_nonsense">abstract nonsense</a>, functional paradigms, and minimal web
-    frameworks. they are most experienced with data driven web applications but
-    are curious about other things too!
-  </p>
-
+  they work on <a href="https://www.grailed.com/trust/authentication">digital authentication tools</a> at <a href="https://www.grailed.com/">grailed.com</a>.
+  <br/>
   <header>recently</header>
   <p>
-    they were at the recurse center, a programming retreat in brooklyn, nyc.
-    before that they worked on community management software.
+  they built a <a href="https://youtu.be/dWbsa3GcDNA">tax dashboard</a> for <a href="https://tokentax.co/">tokentax.co</a>.
+  </p>
+  <p>
+  before that they were at the <a href="https://www.recurse.com/">recurse center</a> learning about <a href="https://en.wikipedia.org/wiki/Abstract_nonsense">abstract nonsense</a>, functional paradigms, and minimal web
+    frameworks.
   </p>
 </section>
