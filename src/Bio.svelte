@@ -6,8 +6,9 @@
   </header>
   <br/>
   <header>currently</header>
+  <p>
   they work on <a href="https://www.grailed.com/trust/authentication">digital authentication tools</a> at <a href="https://www.grailed.com/">grailed.com</a>.
-  <br/>
+  </p>
   <header>recently</header>
   <p>
   they built a <a href="https://youtu.be/dWbsa3GcDNA">tax dashboard</a> for <a href="https://tokentax.co/">tokentax.co</a>.
