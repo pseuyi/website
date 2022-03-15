@@ -1,7 +1,7 @@
 <ul>
   <li><h2>sketchbook</h2></li>
   <ul>
-    <li><a href="https://pseuyi.dev/bouldering-videos">boulderer</a></li>
+    <li><a href="https://pseuyi.dev/bouldering-videos">boulderer (wip)</a></li>
     <li><a href="https://didactic-happiness.herokuapp.com/">generative yoga</a></li>
     <li><a href="https://arcane-scrubland-08669.herokuapp.com/">set</a></li>
     <li><a href="https://www.youtube.com/watch?v=iVCSJyFWHSs">eulerroom 2020</a></li>
