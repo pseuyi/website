@@ -7,10 +7,8 @@
   import Image from 'svelte-image';
 </script>
 
-<!--
 <div class="circle-pink" />
-  <div class="circle-orange" />
-    -->
+<div class="circle-blue" />
 
 <main>
   <img alt="photo of freda" src="/pic.png" ratio="70%" />
@@ -23,10 +21,13 @@
 
 <style>
   main {
-    padding: 1em;
-    max-width: 240px;
+    max-width: 80vw;
+    font-size: 1rem;
     margin: 0 auto;
-    position: relative;
+  }
+
+  img {
+    max-width: 40vw;
   }
 
   .bar {
@@ -43,33 +44,34 @@
     background-color: black;
   }
 
-  .circle-orange {
-    position: absolute;
-    margin: 0;
-    bottom: -20%;
-    right: 10%;
-    height: 70%;
-    width: 30%;
-    background-color: orange;
-    border-radius: 50%;
-    filter: blur(80px);
-    z-index: -1;
-  }
-
   .circle-pink {
     position: absolute;
     margin: 0;
-    height: 100%;
-    width: 33%;
+    bottom: -80%;
+    right: 10%;
+    height: 70%;
+    width: 30%;
     background-color: pink;
+    border-radius: 50%;
+    filter: blur(80px);
+    z-index: -1;
+    opacity: 35%;
+  }
+
+  .circle-blue {
+    position: absolute;
+    margin: 0;
+    height: 100%;
+    bottom: -10%;
+    width: 33%;
+    background-color: blue;
     border-radius: 50%;
     filter: blur(100px);
     z-index: -1;
-    animation-name: blob;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
+    opacity: 15%;
   }
 
+  /*
   @keyframes blob {
     0% {
       height: 50%;
@@ -95,7 +97,6 @@
   h2 {
     color: #333;
   }
-  /*
   h1 {
     font-size: 4em;
     font-weight: 100;
@@ -112,7 +113,7 @@
 
   @media (min-width: 640px) {
     main {
-      max-width: none;
+      max-width: 40vw;
     }
   }
 </style>
