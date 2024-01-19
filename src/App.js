@@ -39,6 +39,15 @@ function App() {
             </li>
             <li>
               <a
+                href="https://gitlab.com/pseuyi"
+                target="_blank"
+                rel="noreferrer"
+              >
+                gitlab
+              </a>
+            </li>
+            <li>
+              <a
                 href="https://www.linkedin.com/in/pseuyi/"
                 target="_blank"
                 rel="noreferrer"
@@ -48,19 +57,36 @@ function App() {
             </li>
             <li>
               <a
+                href="https://docs.google.com/document/d/18GQSqlOH4n46326_tAB26Go9NKEBiMQGqiRomDJTP6w/edit?usp=sharing"
+                rel="noreferrer"
+              >
+                cv
+              </a>
+            </li>
+            <li>
+              <a
+                href="mailto:pseuyi@gmail.com?Subject=hi"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                email
+              </a>
+            </li>
+          </ul>
+        </div>
+      </details>
+      <details>
+        <summary className="summary">links</summary>
+        <div className="info">
+          a few things i've been doing online...
+          <ul>
+            <li>
+              <a
                 href="https://www.are.na/after-freda"
                 target="_blank"
                 rel="noreferrer"
               >
                 are.na
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://docs.google.com/document/d/18GQSqlOH4n46326_tAB26Go9NKEBiMQGqiRomDJTP6w/edit?usp=sharing"
-                rel="noreferrer"
-              >
-                resume
               </a>
             </li>
             <li>
@@ -73,8 +99,22 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="https://art.pseuyi.dev" rel="noreferrer">
+              <a href="https://art.pseuyi.dev" target="_blank" rel="noreferrer">
                 art
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://webring.recurse.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  alt="recurse center logo"
+                  src="https://webring.recurse.com/icon.png"
+                  width={16}
+                  style={{ transform: "translate(0, 2px)" }}
+                />
               </a>
             </li>
           </ul>
@@ -88,7 +128,7 @@ function App() {
           <ul>
             <li>
               <a
-                href="https://pseuyi.dev/2016/"
+                href="https://pseuyi.github.io/2016/"
                 target="_blank"
                 rel="noreferrer"
               >
