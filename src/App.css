@@ -51,3 +51,7 @@ footer {
   border: solid 1px grey;
   font-size: 1rem;
 }
+
+footer:hover {
+  background-color: lightgrey;
+}
