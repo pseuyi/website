@@ -128,6 +128,15 @@ function App() {
           <ul>
             <li>
               <a
+                href="https://pseuyi.github.io/2017/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                2017
+              </a>
+            </li>
+            <li>
+              <a
                 href="https://pseuyi.github.io/2016/"
                 target="_blank"
                 rel="noreferrer"
@@ -138,6 +147,16 @@ function App() {
           </ul>
         </div>
       </details>
+
+      <footer>
+        <a
+          href="http://pseuyi.123Guestbook.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <span className="guestbook">📖</span> guestbook
+        </a>
+      </footer>
     </div>
   );
 }
