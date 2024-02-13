@@ -55,7 +55,7 @@ function App() {
           </div>
         </details>
 
-        <details open>
+        <details>
           <summary className="summary">about me</summary>
           <div className="info">
             i'm a computer programmer based in chinatown, nyc interested in
@@ -127,7 +127,7 @@ function App() {
           </div>
         </details>
 
-        <details open>
+        <details>
           <summary className="summary">site archive</summary>
           <div className="info">
             some former iterations
