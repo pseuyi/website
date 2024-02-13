@@ -1,0 +1,102 @@
+.block {
+  position: relative;
+}
+
+#square {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 10rem;
+  width: 110px;
+  height: 100px;
+  background: var(--square);
+}
+
+#triangle1 {
+  transition: transform var(--time) ease-out;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 30rem;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 80px 80px 80px;
+  border-color: transparent transparent var(--triangle1) transparent;
+}
+
+#triangle2 {
+  transition: transform var(--time) ease-out;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 12rem;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 150px 0 150px 150px;
+  border-color: transparent transparent transparent var(--triangle2);
+}
+
+#triangle3 {
+  transition: transform var(--time) ease-out;
+  cursor: pointer;
+  position: absolute;
+  top: 6rem;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 150px 150px 0 150px;
+  border-color: var(--triangle3) transparent transparent transparent;
+}
+
+#triangle4 {
+  transition: transform var(--time) ease-out;
+  cursor: pointer;
+  position: absolute;
+  top: -2rem;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 150px 150px;
+  border-color: transparent transparent var(--triangle4) transparent;
+}
+
+#triangle5 {
+  transition: transform var(--time) ease-out;
+  cursor: pointer;
+  position: absolute;
+  top: -3rem;
+  right: 2rem;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 80px 80px 80px 0;
+  border-color: transparent var(--triangle5) transparent transparent;
+}
+
+#parallelogram {
+  transition: transform var(--time) ease-out;
+  cursor: pointer;
+  position: absolute;
+  top: -3rem;
+  right: 20rem;
+  width: 150px;
+  height: 70px;
+  background: var(--parallelogram);
+}
+
+@media (max-width: 800px) {
+  .tangrams {
+    display: none;
+  }
+}
+
+.tangrams {
+  --time: 300ms;
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  top: 50%;
+  right: 20%;
+}

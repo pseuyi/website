@@ -1,5 +1,4 @@
-import Draggable from "react-draggable";
-
+import Tangrams from "./Tangrams";
 import "./App.css";
 
 function App() {
@@ -155,33 +154,7 @@ function App() {
         </details>
       </div>
 
-      <div className="tangrams">
-        <div style={{ transform: "rotate(45deg)" }}>
-          <Draggable>
-            <div id="square" className="block"></div>
-          </Draggable>
-        </div>
-        <Draggable>
-          <div id="triangle1" className="block"></div>
-        </Draggable>
-        <Draggable>
-          <div id="triangle2" className="block"></div>
-        </Draggable>
-        <Draggable>
-          <div id="triangle3" className="block"></div>
-        </Draggable>
-        <Draggable>
-          <div id="triangle4" className="block"></div>
-        </Draggable>
-        <Draggable>
-          <div id="triangle5" className="block"></div>
-        </Draggable>
-        <div style={{ transform: "rotate(90deg) skew(45deg)" }}>
-          <Draggable>
-            <div id="parallelogram" className="block"></div>
-          </Draggable>
-        </div>
-      </div>
+      <Tangrams />
 
       <footer>
         <div className="softButton">
