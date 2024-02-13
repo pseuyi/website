@@ -6,16 +6,46 @@ function App() {
       <header className="title">
         <b>freda suyi ding</b>
       </header>
+      <div className="topLinks">
+        <div className="softButton">
+          <a href="https://github.com/pseuyi" target="_blank" rel="noreferrer">
+            github
+          </a>
+        </div>
+        <div className="softButton">
+          <a href="https://gitlab.com/pseuyi" target="_blank" rel="noreferrer">
+            gitlab
+          </a>
+        </div>
+        <div className="softButton">
+          <a
+            href="https://www.linkedin.com/in/pseuyi/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            linkedin
+          </a>
+        </div>
+        <div className="softButton">
+          <a
+            href="https://docs.google.com/document/d/18GQSqlOH4n46326_tAB26Go9NKEBiMQGqiRomDJTP6w/edit?usp=sharing"
+            rel="noreferrer"
+          >
+            resume
+          </a>
+        </div>
+      </div>
 
-      <div>
-        <details>
+      <div className="sections">
+        <details open>
           <summary className="summary">currently</summary>
           <div className="info">
-            working on{" "}
+            i'm working on{" "}
             <a
               href="https://www.costarastrology.com/"
               target="_blank"
               rel="noreferrer"
+              className="clickable"
             >
               ai-powered creative content generation
             </a>{" "}
@@ -23,63 +53,32 @@ function App() {
           </div>
         </details>
 
-        <details>
+        <details open>
           <summary className="summary">about me</summary>
           <div className="info">
-            i'm a computer programmer based in chinatown, nyc. <br />
-            i'm interested in writing elegant, safe, and functional software.
-            <ul>
-              <li>
-                <a
-                  href="https://github.com/pseuyi"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  github
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://gitlab.com/pseuyi"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  gitlab
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/pseuyi/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  linkedin
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://docs.google.com/document/d/18GQSqlOH4n46326_tAB26Go9NKEBiMQGqiRomDJTP6w/edit?usp=sharing"
-                  rel="noreferrer"
-                >
-                  cv
-                </a>
-              </li>
-              <li>
-                <a
-                  href="mailto:pseuyi@gmail.com?Subject=hi"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  email
-                </a>
-              </li>
-            </ul>
-          </div>
-        </details>
-        <details>
-          <summary className="summary">links</summary>
-          <div className="info">
-            a few things i've been doing online...
+            i'm a computer programmer based in chinatown, nyc interested in
+            writing elegant, safe, and functional software.
+            <br />
+            outside of programming i can be found{" "}
+            <a
+              href="https://www.mountainproject.com/user/200352257/freda-nyc"
+              target="_blank"
+              rel="noreferrer"
+              className="clickable"
+            >
+              climbing
+            </a>{" "}
+            or
+            <a
+              href="https://art.pseuyi.dev"
+              target="_blank"
+              rel="noreferrer"
+              className="clickable"
+            >
+              {" "}
+              drawing
+            </a>
+            .<p>links</p>
             <ul>
               <li>
                 <a
@@ -101,11 +100,11 @@ function App() {
               </li>
               <li>
                 <a
-                  href="https://art.pseuyi.dev"
+                  href="mailto:pseuyi@gmail.com?Subject=hi"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
-                  art
+                  send me mail
                 </a>
               </li>
               <li>
@@ -126,10 +125,10 @@ function App() {
           </div>
         </details>
 
-        <details>
-          <summary className="summary">archive</summary>
+        <details open>
+          <summary className="summary">site archive</summary>
           <div className="info">
-            past iterations of this site
+            some former iterations
             <ul>
               <li>
                 <a
@@ -154,14 +153,26 @@ function App() {
         </details>
       </div>
 
+      <div id="blockTray">
+        <div id="square" class="block"></div>
+        <div id="triangle1" class="block"></div>
+        <div id="triangle2" class="block"></div>
+        <div id="triangle3" class="block"></div>
+        <div id="triangle4" class="block"></div>
+        <div id="triangle5" class="block"></div>
+        <div id="parallelogram" class="block"></div>
+      </div>
+
       <footer>
-        <a
-          href="http://pseuyi.123Guestbook.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <span className="guestbook">📖</span> guestbook
-        </a>
+        <div className="softButton">
+          <a
+            href="http://pseuyi.123Guestbook.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className="guestbook">📖</span> guestbook
+          </a>
+        </div>
       </footer>
     </div>
   );
