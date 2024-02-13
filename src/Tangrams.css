@@ -99,4 +99,12 @@
   width: 50%;
   top: 50%;
   right: 20%;
+
+  --square: thistle;
+  --triangle1: blanchedalmond;
+  --triangle2: lawngreen;
+  --triangle3: powderblue;
+  --triangle4: gainsboro;
+  --triangle5: mediumslateblue;
+  --parallelogram: tomato;
 }
