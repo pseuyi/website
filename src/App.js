@@ -1,3 +1,5 @@
+import Draggable from "react-draggable";
+
 import "./App.css";
 
 function App() {
@@ -153,14 +155,32 @@ function App() {
         </details>
       </div>
 
-      <div id="blockTray">
-        <div id="square" class="block"></div>
-        <div id="triangle1" class="block"></div>
-        <div id="triangle2" class="block"></div>
-        <div id="triangle3" class="block"></div>
-        <div id="triangle4" class="block"></div>
-        <div id="triangle5" class="block"></div>
-        <div id="parallelogram" class="block"></div>
+      <div className="tangrams">
+        <div style={{ transform: "rotate(45deg)" }}>
+          <Draggable>
+            <div id="square" className="block"></div>
+          </Draggable>
+        </div>
+        <Draggable>
+          <div id="triangle1" className="block"></div>
+        </Draggable>
+        <Draggable>
+          <div id="triangle2" className="block"></div>
+        </Draggable>
+        <Draggable>
+          <div id="triangle3" className="block"></div>
+        </Draggable>
+        <Draggable>
+          <div id="triangle4" className="block"></div>
+        </Draggable>
+        <Draggable>
+          <div id="triangle5" className="block"></div>
+        </Draggable>
+        <div style={{ transform: "rotate(90deg) skew(45deg)" }}>
+          <Draggable>
+            <div id="parallelogram" className="block"></div>
+          </Draggable>
+        </div>
       </div>
 
       <footer>

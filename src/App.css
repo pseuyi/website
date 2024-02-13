@@ -3,6 +3,13 @@
   margin: auto;
   padding: 4rem;
   font-family: "Times New Roman", "serif";
+  --square: #252422;
+  --triangle1: #ccc5b9;
+  --triangle2: #54f2f2;
+  --triangle3: #b7adcf;
+  --triangle4: #042a2b;
+  --triangle5: #fffcf2;
+  --parallelogram: #403d39;
 }
 
 @media (max-width: 1000px) {
@@ -116,74 +123,92 @@ footer {
 }
 
 #square {
+  cursor: pointer;
+  position: absolute;
+  top: -1rem;
+  right: 2rem;
   width: 110px;
   height: 100px;
-  background: #16a085;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+  background: var(--square);
 }
 
 #triangle1 {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: -2rem;
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 0 80px 80px 80px;
-  border-color: transparent transparent #f1c40f transparent;
+  border-color: transparent transparent var(--triangle1) transparent;
 }
 
 #triangle2 {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 12rem;
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 150px 0 150px 150px;
-  border-color: transparent transparent transparent #e74c3c;
-  top: -100px;
+  border-color: transparent transparent transparent var(--triangle2);
 }
 
 #triangle3 {
+  cursor: pointer;
+  position: absolute;
+  top: 6rem;
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 150px 150px 0 150px;
-  border-color: #007bff transparent transparent transparent;
-  top: -100px;
+  border-color: var(--triangle3) transparent transparent transparent;
 }
 
 #triangle4 {
+  cursor: pointer;
+  position: absolute;
+  top: -2rem;
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 0 0 150px 150px;
-  border-color: transparent transparent #d63294 transparent;
-  top: -300px;
+  border-color: transparent transparent var(--triangle4) transparent;
 }
 
 #triangle5 {
+  cursor: pointer;
+  position: absolute;
+  top: -3rem;
+  right: 2rem;
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 80px 80px 80px 0;
-  border-color: transparent #69dcf0 transparent transparent;
-  top: -350px;
+  border-color: transparent var(--triangle5) transparent transparent;
 }
 
 #parallelogram {
+  cursor: pointer;
+  position: absolute;
+  top: -4rem;
+  right: 2rem;
   width: 150px;
   height: 70px;
-  -webkit-transform: skew(-45deg);
-  -moz-transform: skew(-45deg);
-  -o-transform: skew(-45deg);
-  background: #e67e22;
-  top: -600px;
+  background: var(--parallelogram);
 }
 
-/*Page layout*/
-#blockTray {
-  float: right;
+@media (max-width: 800px) {
+  .tangrams {
+    display: none;
+  }
+}
+.tangrams {
+  position: absolute;
   height: 100%;
-  width: 20%;
-  padding: 5px;
+  width: 50%;
+  top: 50%;
+  right: 20%;
 }
