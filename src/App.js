@@ -157,7 +157,7 @@ function App() {
       <Tangrams />
 
       <footer>
-        <div className="softButton">
+        <div className="guestbookButton">
           <a
             href="http://pseuyi.123Guestbook.com/"
             target="_blank"
